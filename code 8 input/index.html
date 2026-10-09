@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <!-- input berupa teks seperti search -->
+            Nama depan : <input type="text">
+            <br>
+            Nama belakang : <input type="text">
+            <br>
+            password : <input type="password">
+            <br>
+            <!-- radio button, pilih salah satu -->
+            <input type="radio" name="code" value="ya"><label for="ya">ya</label>
+            <br>
+            <input type="radio" name="code" value="tidak"><label for="tidak">tidak</label>
+            <br>
+            <!-- checkbox, bisa buat milih banyak/centang banyak -->
+            <input type="checkbox" name="musik" value="jass" ><label for="pop">jass</label>
+            <br>
+            <input type="checkbox" name="musik" value="pop" ><label for="pop">pop</label>
+            <br>
+            <!-- dropdown, ada data muncul ke bawah -->
+            <select name="pekerjaan">
+                <option value="mahasiswa">mahasiswa</option>
+                <option value="mahasiswa">wirausaha</option>
+                <option value="mahasiswa">penes</option>
+            </select>
+            <br>
+            <!-- upload file, formatnya input file -->
+            <input type="file" name="foto" value="foto">
+            <br>
+            <input type="button" name="submit" value="submit">
+        </form>
+    </body>
+</html>

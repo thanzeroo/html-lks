@@ -1,0 +1,97 @@
+<!-- materi ke tiga belas, banyak kombinasi yang bisa di pakai -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Membuat Tabel</title>
+    </head>
+    <body>
+        <h1>Cara Membuat Tabel</h1>
+        <br>
+        <h4>Tabel Standar</h4>
+        <table border="1">
+            <!-- tr untuk baris -->
+            <!-- td untuk data -->
+            <!-- th untuk header -->
+
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+        <br>
+
+        <h4>Table dengan header</h4>
+        <table border="1">
+            <tr>
+                <th>Senin</th>
+                <td>pagi</td>
+                <td>siang</td>
+                <td>sore</td>
+            </tr>
+            <tr>
+                <th>Selasa</th>
+                <td>pagi</td>
+                <td>siang</td>
+                <td>sore</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1">
+            <th>rabu</th>
+            <th>kamis</th>
+            <tr>
+                <td>pagi</td>
+                <td>pagi</td>
+            </tr>
+            <tr>
+                <td>siang</td>
+                <td>siang</td>
+            </tr>
+        </table>
+
+        <br>
+        <h4>gabungan</h4>
+        <table border="1">
+            <th></th>
+            <th>senin</th>
+            <tr>
+                <th>pagi</th>
+                <td>berangkat</td>
+            </tr>
+            <tr>
+                <th>siang</th>
+                <td>belajar</td>
+            </tr>
+        </table>
+
+        <br>
+        <h4>alokasi kolom</h4>
+
+        <table border="1">
+            <th></th>
+            <th>senin</th>
+            <th>selasa</th>
+            <tr>
+                <th>pagi</th>
+                <td>Sekolah</td>
+                <td>kerja</td>
+            </tr>
+            <tr>
+                <th rowspan="2">siang</th>
+                <!-- colspan tergantung rownya -->
+                <td colspan="2">belajar</td>
+            </tr>
+            <tr>
+                <!-- colspan tergantung rownya -->
+                <td colspan="2">bermain</td>
+            </tr>
+        </table>
+    </body>
+</html>
